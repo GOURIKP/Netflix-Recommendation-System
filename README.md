@@ -8,8 +8,6 @@ Collaborative Filtering: Utilizes collaborative filtering techniques to recommen
 
 Content-based Filtering: Considers attributes such as genre, category, and description of movies and TV shows to recommend similar content.
 
-Matrix Factorization: Implements matrix factorization algorithms such as Singular Value Decomposition (SVD) or Alternating Least Squares (ALS) to uncover latent factors and improve recommendation accuracy.
-
 Scalability: Designed to handle large datasets efficiently, ensuring scalability as the user base grows.
 
 # Technologies Used:
@@ -20,7 +18,11 @@ Data Preprocessing: Clean and preprocess the Netflix dataset, handling missing v
 
 Model Training: Train machine learning models using collaborative filtering, content-based filtering, or hybrid approaches.
 
-Evaluation: Evaluate the performance of the recommendation system using metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), or Precision@k and Recall@k.
+TF-IDF Vectorization: Converts text data into numerical representations for similarity computation.
+
+Cosine Similarity: Measures the similarity between movies based on their descriptions and genres.
+
+Recommendation Generation: Provides personalized movie recommendations based on user input.
 
 Deployment: Deploy the trained model as a service or integrate it into a web application for real-time recommendations.
 
