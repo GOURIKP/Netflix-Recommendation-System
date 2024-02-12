@@ -11,7 +11,7 @@ Content-based Filtering: Considers attributes such as genre, category, and descr
 Scalability: Designed to handle large datasets efficiently, ensuring scalability as the user base grows.
 
 # Technologies Used:
-Python,Pandas,NumPy,SciPy,Scikit-learn
+Python,Pandas,NumPy,SciPy,Scikit-learn,NLTK (Natural Language Toolkit),Regular Expressions (re),Cosine Similarity,TF-IDF (Term Frequency-Inverse Document Frequency)
 
 # Usage:
 Data Preprocessing: Clean and preprocess the Netflix dataset, handling missing values, and transforming the data into a suitable format for modeling.
